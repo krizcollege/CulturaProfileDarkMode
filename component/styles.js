@@ -5,13 +5,13 @@ const getStyles = (darkMode) => {
     container: {
       marginTop: 30,
       flex: 1,
-      backgroundColor: darkMode ? '#000' : '#fff',
+      backgroundColor: darkMode ? '#7B0323' : '#fff',
     },
     header: {
       padding: 20,
       borderBottomWidth: 1,
       borderBottomColor: '#808080',
-      backgroundColor: darkMode ? '#000' : '#fff',
+      backgroundColor: darkMode ? '#7B0323' : '#fff',
     },
     username: {
       fontFamily: 'serif',
@@ -37,7 +37,7 @@ const getStyles = (darkMode) => {
     },
     button: {
       padding: 10,
-      backgroundColor: darkMode ? '#fff' : '#000',
+      backgroundColor: darkMode ? '#fff' : '#7B0323',
       borderRadius: 5,
       borderColor: darkMode ? '#000' : '#fff',
       borderWidth: 1,
@@ -56,7 +56,7 @@ const getStyles = (darkMode) => {
       padding: 20,
       borderTopWidth: 1,
       borderTopColor: '#808080',
-      backgroundColor: darkMode ? '#000' : '#fff',
+      backgroundColor: darkMode ? '#7B0323' : '#fff',
     },
   });
 };
